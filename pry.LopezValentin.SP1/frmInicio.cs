@@ -25,7 +25,8 @@ namespace pry.LopezValentin.SP1
 
         private void vendedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            frmVentas newObj = new frmVentas();
+            newObj.ShowDialog();
         }
 
         private void TSMSalir_Click(object sender, EventArgs e)
@@ -43,6 +44,12 @@ namespace pry.LopezValentin.SP1
         {
             frmConsultaClientes frmConsultasClientes = new frmConsultaClientes();
             frmConsultasClientes.ShowDialog();
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaVentas newObj = new frmConsultaVentas();
+            newObj.ShowDialog();
         }
     }
 }

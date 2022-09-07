@@ -12,3 +12,19 @@ C:\Users\valen\OneDrive\Escritorio\Facultad\2do Semestre\Laboratorio de Programa
 C:\Users\valen\OneDrive\Escritorio\Facultad\2do Semestre\Laboratorio de Programacion II\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.pdb
 C:\Users\valen\OneDrive\Escritorio\Facultad\2do Semestre\Laboratorio de Programacion II\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmVendedor.resources
 C:\Users\valen\OneDrive\Escritorio\Facultad\2do Semestre\Laboratorio de Programacion II\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmConsultaClientes.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.exe.config
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.exe
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.pdb
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.AssemblyReference.cache
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.SuggestedBindingRedirects.cache
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmClientes.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmConsultaClientes.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmInicio.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmVendedor.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.Properties.Resources.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.GenerateResource.cache
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.CoreCompileInputs.cache
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.exe
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.pdb
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmVentas.resources
+D:\Escritorio\Repositorio SP1- Lopez V\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmConsultaVentas.resources

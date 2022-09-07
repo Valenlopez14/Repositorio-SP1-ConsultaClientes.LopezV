@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.GRLConsultaClientes = new System.Windows.Forms.DataGridView();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmdListar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRLConsultaClientes)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // GRLConsultaClientes
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.GRLConsultaClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GRLConsultaClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column2,
             this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(2, 1);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(244, 259);
-            this.dataGridView1.TabIndex = 0;
+            this.GRLConsultaClientes.Location = new System.Drawing.Point(2, 1);
+            this.GRLConsultaClientes.Name = "GRLConsultaClientes";
+            this.GRLConsultaClientes.Size = new System.Drawing.Size(244, 259);
+            this.GRLConsultaClientes.TabIndex = 0;
             // 
             // Column2
             // 
@@ -58,23 +58,23 @@
             // 
             // cmdListar
             // 
-            this.cmdListar.Location = new System.Drawing.Point(196, 281);
+            this.cmdListar.Location = new System.Drawing.Point(161, 274);
             this.cmdListar.Name = "cmdListar";
             this.cmdListar.Size = new System.Drawing.Size(75, 23);
             this.cmdListar.TabIndex = 1;
             this.cmdListar.Text = "Listar";
             this.cmdListar.UseVisualStyleBackColor = true;
-            this.cmdListar.Click += new System.EventHandler(this.cmdListar_Click);
+            this.cmdListar.Click += new System.EventHandler(this.cmdListar_Click_1);
             // 
             // frmConsultaClientes
             // 
-            this.ClientSize = new System.Drawing.Size(283, 316);
+            this.ClientSize = new System.Drawing.Size(248, 309);
             this.Controls.Add(this.cmdListar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.GRLConsultaClientes);
             this.Name = "frmConsultaClientes";
             this.Text = "Consulta Clientes";
             this.Load += new System.EventHandler(this.frmConsultaClientes_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRLConsultaClientes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -84,7 +84,7 @@
         private System.Windows.Forms.DataGridView GRLClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnaID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView GRLConsultaClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Button cmdListar;

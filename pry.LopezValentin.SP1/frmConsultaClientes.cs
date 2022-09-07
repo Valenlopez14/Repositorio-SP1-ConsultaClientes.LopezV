@@ -41,12 +41,17 @@ namespace pry.LopezValentin.SP1
 
         private void cmdListar_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void cmdListar_Click_1(object sender, EventArgs e)
+        {
             StreamReader clientes = new StreamReader("./clientes.txt");
             while (!clientes.EndOfStream)
             {
                 string ID = clientes.ReadLine();
-                string Name = clientes.ReadLine() ;
-                dataGridView1.Rows.Add(ID, Name);
+                string[] Clientes = ID.Split((';'));
+                GRLConsultaClientes.Rows.Add(Clientes[0], Clientes[1]);
             }
             clientes.Close();
         }

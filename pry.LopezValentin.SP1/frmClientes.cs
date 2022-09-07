@@ -28,7 +28,7 @@ namespace pry.LopezValentin.SP1
             while (!srNumeroDeCliente.EndOfStream)
             {
                 string auxID = srNumeroDeCliente.ReadLine();
-                if (mskNroClientes.Text == auxID.Substring(0,4))
+                if (mskIDClientes.Text == auxID.Substring(0,4))
                 {
                     MessageBox.Show("Codigo ya cargado, utilice otro");
                     bandera = true;
@@ -40,13 +40,12 @@ namespace pry.LopezValentin.SP1
             if (bandera == false)
             {
                 StreamWriter clientes = new StreamWriter("./clientes.txt", true);
-                clientes.WriteLine(mskNroClientes.Text + ";" + txtNombreC.Text);
+                clientes.WriteLine(mskIDClientes.Text + ";" + txtClientes.Text);
                 MessageBox.Show("Cliente cargado con éxito.");
                 clientes.Close();
-                txtNombreC.Text = "";
-                mskNroClientes.Text = "";
-                txtNombreC.Focus();
-
+                txtClientes.Text = "";
+                mskIDClientes.Text = "";
+                txtClientes.Focus();
 
             }
 

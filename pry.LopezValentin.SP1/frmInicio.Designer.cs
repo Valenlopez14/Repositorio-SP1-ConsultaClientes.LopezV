@@ -30,13 +30,13 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.TSMRegistrar = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMConsultar = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.vendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMConsultar = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,22 +62,6 @@
             this.TSMRegistrar.Size = new System.Drawing.Size(65, 20);
             this.TSMRegistrar.Text = "Registrar";
             // 
-            // TSMConsultar
-            // 
-            this.TSMConsultar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ventasToolStripMenuItem,
-            this.clientesToolStripMenuItem});
-            this.TSMConsultar.Name = "TSMConsultar";
-            this.TSMConsultar.Size = new System.Drawing.Size(70, 20);
-            this.TSMConsultar.Text = "Consultar";
-            // 
-            // TSMSalir
-            // 
-            this.TSMSalir.Name = "TSMSalir";
-            this.TSMSalir.Size = new System.Drawing.Size(41, 20);
-            this.TSMSalir.Text = "Salir";
-            this.TSMSalir.Click += new System.EventHandler(this.TSMSalir_Click);
-            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
@@ -92,12 +76,6 @@
             this.vendedorToolStripMenuItem.Text = "Ventas";
             this.vendedorToolStripMenuItem.Click += new System.EventHandler(this.vendedorToolStripMenuItem_Click);
             // 
-            // ventasToolStripMenuItem
-            // 
-            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ventasToolStripMenuItem.Text = "Ventas";
-            // 
             // vendedorToolStripMenuItem1
             // 
             this.vendedorToolStripMenuItem1.Name = "vendedorToolStripMenuItem1";
@@ -105,12 +83,35 @@
             this.vendedorToolStripMenuItem1.Text = "Vendedor";
             this.vendedorToolStripMenuItem1.Click += new System.EventHandler(this.vendedorToolStripMenuItem1_Click);
             // 
+            // TSMConsultar
+            // 
+            this.TSMConsultar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ventasToolStripMenuItem,
+            this.clientesToolStripMenuItem});
+            this.TSMConsultar.Name = "TSMConsultar";
+            this.TSMConsultar.Size = new System.Drawing.Size(70, 20);
+            this.TSMConsultar.Text = "Consultar";
+            // 
+            // ventasToolStripMenuItem
+            // 
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem.Text = "Ventas";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
+            // 
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
+            // TSMSalir
+            // 
+            this.TSMSalir.Name = "TSMSalir";
+            this.TSMSalir.Size = new System.Drawing.Size(41, 20);
+            this.TSMSalir.Text = "Salir";
+            this.TSMSalir.Click += new System.EventHandler(this.TSMSalir_Click);
             // 
             // frmInicio
             // 

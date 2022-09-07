@@ -1,1 +1,1 @@
-123 System.Windows.Forms.TextBox, Text: asdasdasd
+111;VALENTIN;ACTIVO SI;COMISION SI
