@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace pry.LopezValentin.SP1
 {
@@ -16,5 +17,28 @@ namespace pry.LopezValentin.SP1
         {
             InitializeComponent();
         }
+
+        private void cmdCargar_Click(object sender, EventArgs e)
+        {
+
+            StreamWriter Ventas = new StreamWriter("./Ventas.txt", true);
+            Ventas.WriteLine(lstTipoFactura.Text + ";" + mskNroFac.Text + ";" + DTPFecha.Text + ";" + mskIDCliente.Text + ";" + mskIdVendedor.Text + ";" + txtMonto.Text);
+            MessageBox.Show("Venta cargada con éxito.");
+            Ventas.Close();
+            lstTipoFactura.Items.Clear();
+            mskNroFac.Text = "";
+            DTPFecha.Text = "";
+            mskIDCliente.Text = "";
+            mskIDCliente.Text = "";
+            txtMonto.Text = "";
+            lstTipoFactura.Focus();
+
+
+
+
+
+
+        }
+
     }
 }

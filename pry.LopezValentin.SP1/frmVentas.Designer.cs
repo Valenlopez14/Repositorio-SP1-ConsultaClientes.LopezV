@@ -37,7 +37,7 @@
             this.DTPFecha = new System.Windows.Forms.DateTimePicker();
             this.lblClienteID = new System.Windows.Forms.Label();
             this.mskIDCliente = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mskIdVendedor = new System.Windows.Forms.MaskedTextBox();
             this.lblVendedorID = new System.Windows.Forms.Label();
             this.lblMonto = new System.Windows.Forms.Label();
             this.txtMonto = new System.Windows.Forms.TextBox();
@@ -52,6 +52,7 @@
             this.cmdCargar.TabIndex = 0;
             this.cmdCargar.Text = "Cargar";
             this.cmdCargar.UseVisualStyleBackColor = true;
+            this.cmdCargar.Click += new System.EventHandler(this.cmdCargar_Click);
             // 
             // lstTipoFactura
             // 
@@ -125,12 +126,12 @@
             this.mskIDCliente.Size = new System.Drawing.Size(29, 20);
             this.mskIDCliente.TabIndex = 8;
             // 
-            // maskedTextBox1
+            // mskIdVendedor
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(103, 199);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(29, 20);
-            this.maskedTextBox1.TabIndex = 9;
+            this.mskIdVendedor.Location = new System.Drawing.Point(103, 199);
+            this.mskIdVendedor.Name = "mskIdVendedor";
+            this.mskIdVendedor.Size = new System.Drawing.Size(29, 20);
+            this.mskIdVendedor.TabIndex = 9;
             // 
             // lblVendedorID
             // 
@@ -176,7 +177,7 @@
             this.Controls.Add(this.txtMonto);
             this.Controls.Add(this.lblMonto);
             this.Controls.Add(this.lblVendedorID);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.mskIdVendedor);
             this.Controls.Add(this.mskIDCliente);
             this.Controls.Add(this.lblClienteID);
             this.Controls.Add(this.DTPFecha);
@@ -204,7 +205,7 @@
         private System.Windows.Forms.DateTimePicker DTPFecha;
         private System.Windows.Forms.Label lblClienteID;
         private System.Windows.Forms.MaskedTextBox mskIDCliente;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mskIdVendedor;
         private System.Windows.Forms.Label lblVendedorID;
         private System.Windows.Forms.Label lblMonto;
         private System.Windows.Forms.TextBox txtMonto;

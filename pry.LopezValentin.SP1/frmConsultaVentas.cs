@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace pry.LopezValentin.SP1
 {
@@ -15,6 +16,11 @@ namespace pry.LopezValentin.SP1
         public frmConsultaVentas()
         {
             InitializeComponent();
+        }
+
+        private void cmdListar_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
