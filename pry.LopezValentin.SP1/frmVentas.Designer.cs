@@ -153,10 +153,11 @@
             // 
             // txtMonto
             // 
-            this.txtMonto.Location = new System.Drawing.Point(59, 236);
+            this.txtMonto.Location = new System.Drawing.Point(58, 233);
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(38, 20);
             this.txtMonto.TabIndex = 12;
+            this.txtMonto.Text = "$\r\n";
             // 
             // lblBienvenida
             // 
@@ -188,6 +189,7 @@
             this.Controls.Add(this.lstTipoFactura);
             this.Controls.Add(this.cmdCargar);
             this.Name = "frmVentas";
+            this.Tag = "$";
             this.Text = "Ventas";
             this.ResumeLayout(false);
             this.PerformLayout();

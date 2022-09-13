@@ -29,14 +29,9 @@ namespace pry.LopezValentin.SP1
             mskNroFac.Text = "";
             DTPFecha.Text = "";
             mskIDCliente.Text = "";
-            mskIDCliente.Text = "";
+            mskIdVendedor.Text = "";
             txtMonto.Text = "";
             lstTipoFactura.Focus();
-
-
-
-
-
 
         }
 

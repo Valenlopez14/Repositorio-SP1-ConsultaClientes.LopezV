@@ -1,2 +1,4 @@
 A;1-234-5;jueves, 15 de septiembre de 2022;2-44;560;10000
 B;9-999-9;martes, 13 de septiembre de 2022;9-99;9999;99999
+B;1-111-1;martes, 13 de septiembre de 2022;1-24;123;$
+1234
