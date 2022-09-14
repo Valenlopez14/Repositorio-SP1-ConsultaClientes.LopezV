@@ -25,7 +25,7 @@ namespace pry.LopezValentin.SP1
             Ventas.WriteLine(lstTipoFactura.Text + ";" + mskNroFac.Text + ";" + DTPFecha.Text + ";" + mskIDCliente.Text + ";" + mskIdVendedor.Text + ";" + txtMonto.Text);
             MessageBox.Show("Venta cargada con éxito.");
             Ventas.Close();
-            lstTipoFactura.Items.Clear();
+            lstTipoFactura.SelectedIndex = 0;
             mskNroFac.Text = "";
             DTPFecha.Text = "";
             mskIDCliente.Text = "";

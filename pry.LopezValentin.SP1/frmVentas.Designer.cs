@@ -157,7 +157,6 @@
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(38, 20);
             this.txtMonto.TabIndex = 12;
-            this.txtMonto.Text = "$\r\n";
             // 
             // lblBienvenida
             // 

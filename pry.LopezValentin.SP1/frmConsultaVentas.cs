@@ -25,13 +25,9 @@ namespace pry.LopezValentin.SP1
             {
                 string Ventas = SrVentas.ReadLine();
                 string[] FacturaTipo = Ventas.Split(';');
-                string[] id = Ventas.Split(';');
-                string[] fecha = Ventas.Split(';');
-                string[] ClienteId = Ventas.Split(';');
-                string[] VendedorId = Ventas.Split(';');
-                string[] Monto = Ventas.Split(';');
+                
 
-                GRLConsultaVentas.Rows.Add(Ventas[0], Ventas[1] , Ventas[2], Ventas[3], Ventas[4], Ventas[5], Ventas[6]);
+                GRLConsultaVentas.Rows.Add(FacturaTipo[0], FacturaTipo[1] , FacturaTipo[2], FacturaTipo[3], FacturaTipo[4], FacturaTipo[5]);
 
             }
             SrVentas.Close();
