@@ -1,2 +1,4 @@
 A;1-524-5;miércoles, 14 de septiembre de 2022;1-25;1214;15934
 A;1-232-3;miércoles, 14 de septiembre de 2022; -21;;
+B;1-234-5;jueves, 22 de septiembre de 2022;2-55;988;29438394
+B;1-245-4;jueves, 15 de septiembre de 2022;2-41;244;1234

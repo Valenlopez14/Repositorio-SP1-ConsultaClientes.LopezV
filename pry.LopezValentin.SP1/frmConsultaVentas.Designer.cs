@@ -36,6 +36,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cmdListar = new System.Windows.Forms.Button();
+            this.cmdLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GRLConsultaVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,11 +95,22 @@
             this.cmdListar.UseVisualStyleBackColor = true;
             this.cmdListar.Click += new System.EventHandler(this.cmdListar_Click);
             // 
+            // cmdLimpiar
+            // 
+            this.cmdLimpiar.Location = new System.Drawing.Point(12, 422);
+            this.cmdLimpiar.Name = "cmdLimpiar";
+            this.cmdLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.cmdLimpiar.TabIndex = 2;
+            this.cmdLimpiar.Text = "Limpiar";
+            this.cmdLimpiar.UseVisualStyleBackColor = true;
+            this.cmdLimpiar.Click += new System.EventHandler(this.cmdLimpiar_Click);
+            // 
             // frmConsultaVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 457);
+            this.Controls.Add(this.cmdLimpiar);
             this.Controls.Add(this.cmdListar);
             this.Controls.Add(this.GRLConsultaVentas);
             this.Name = "frmConsultaVentas";
@@ -118,5 +130,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.Button cmdListar;
+        private System.Windows.Forms.Button cmdLimpiar;
     }
 }

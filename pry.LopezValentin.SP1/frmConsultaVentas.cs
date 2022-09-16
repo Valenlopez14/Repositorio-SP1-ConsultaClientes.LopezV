@@ -32,5 +32,10 @@ namespace pry.LopezValentin.SP1
             }
             SrVentas.Close();
         }
+
+        private void cmdLimpiar_Click(object sender, EventArgs e)
+        {
+            GRLConsultaVentas.Rows.Clear();
+        }
     }
 }

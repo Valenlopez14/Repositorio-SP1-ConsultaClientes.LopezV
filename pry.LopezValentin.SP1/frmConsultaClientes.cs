@@ -55,5 +55,10 @@ namespace pry.LopezValentin.SP1
             }
             clientes.Close();
         }
+
+        private void cmdLimpiar_Click(object sender, EventArgs e)
+        {
+            GRLConsultaClientes.Rows.Clear();
+        }
     }
 }
