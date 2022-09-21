@@ -92,3 +92,19 @@ C:\Users\valen\OneDrive\Escritorio\Nueva carpeta\pry.LopezValentin.SP1\pry.Lopez
 C:\Users\valen\OneDrive\Escritorio\Nueva carpeta\pry.LopezValentin.SP1\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.CoreCompileInputs.cache
 C:\Users\valen\OneDrive\Escritorio\Nueva carpeta\pry.LopezValentin.SP1\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.exe
 C:\Users\valen\OneDrive\Escritorio\Nueva carpeta\pry.LopezValentin.SP1\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.pdb
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.exe.config
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.exe
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\bin\Debug\pry.LopezValentin.SP1.pdb
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.AssemblyReference.cache
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.SuggestedBindingRedirects.cache
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmClientes.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmConsultaClientes.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmConsultaVentas.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmInicio.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmVendedor.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.frmVentas.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.Properties.Resources.resources
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.GenerateResource.cache
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.csproj.CoreCompileInputs.cache
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.exe
+C:\Users\valen\OneDrive\Escritorio\asdsadasdasdasdas\pry.LopezValentin.SP1\obj\Debug\pry.LopezValentin.SP1.pdb
